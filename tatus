@@ -1,0 +1,84 @@
+[33mcommit a9832ac294bd72e16ce79fa5de99baa9813c7bb4[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 23:00:31 2017 +0200
+
+    Add new pages for the blog
+
+[33mcommit 8b381cdd77ac653990caadaf0e3dabe6bc3dc21d[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 17:34:49 2017 +0200
+
+    Add README.md files
+
+[33mcommit 7ba3241155cd5a284075eabd19ac0d688b9cad9b[m
+Author: Egor Yushchenko <32074767+twinsinc@users.noreply.github.com>
+Date:   Thu Oct 19 17:31:35 2017 +0200
+
+    Delete README.md
+
+[33mcommit 68a19801e9f7e203da2d6bcd4c81dd8701f5233d[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 17:29:27 2017 +0200
+
+    Add README.md files
+
+[33mcommit 316d0f4e8378174707b31ada8dcc11bc1d32d165[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 17:27:28 2017 +0200
+
+    Add README.cd files
+
+[33mcommit aed01215d654839580c14511621b01f3578ed3d1[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 17:23:07 2017 +0200
+
+    Index.html moves to ferdinand's folder
+
+[33mcommit ff462aebd12d5b20aca0aaf4bdf93bc3877faf46[m
+Merge: ebad5cc 659ec3c
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 17:20:28 2017 +0200
+
+    Merge branch 'master' of https://github.com/twinsinc/html5blog
+
+[33mcommit 659ec3ce31ae9304b393edd0421c368e1cfabacb[m
+Author: Egor Yushchenko <32074767+twinsinc@users.noreply.github.com>
+Date:   Thu Oct 19 17:19:58 2017 +0200
+
+    Delete Index.html
+
+[33mcommit ebad5ccffaa67b952f0c047560f0a51caff243cb[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 17:18:55 2017 +0200
+
+    Index.html moves to fredinand's folder
+
+[33mcommit bb037bbde291fb73ec86f6be76ac8b36d27ff6e6[m
+Author: Egor Yushchenko <32074767+twinsinc@users.noreply.github.com>
+Date:   Thu Oct 19 17:09:37 2017 +0200
+
+    Update README.md
+
+[33mcommit 7d9df2ad74927705ad802d433655415129942796[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 17:03:17 2017 +0200
+
+    Index.html move to ferdinand's folder
+
+[33mcommit 88967fe5c572842c226c0093a6a6debfac4b1c05[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 13:42:22 2017 +0200
+
+    Merge branch 'master' of https://github.com/twinsinc/html5blog
+
+[33mcommit 890b709b7703428051db33db04571ac0829f8bd9[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 13:34:19 2017 +0200
+
+    Add Egor's folder
+
+[33mcommit ee2d66637ec8e33c797569bd6b63fbde1a6d5608[m
+Author: Egor Yushchenko <eayushchenko@gmail.com>
+Date:   Thu Oct 19 13:22:16 2017 +0200
+
+    First commit
