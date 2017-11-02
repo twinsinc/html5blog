@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+  <title>Kontakt
+  </title>
+  <body>
+    <h1> Der Prim3blog bringt euch die wichtigsten Nachrichten rund ums Thema Videospiele! 
+    </h1>
+    <h3>Übersicht über alle Webseiten
+    </h3>
+    <nav>
+      <ul>            
+        <li>
+          <a href="home.html">Homepage
+          </a>
+        </li> 
+        <li>
+          <a href="Uebermich.html">Über mich
+          </a> 
+        </li> 
+        <li>
+          <a href="Kontakt.html">Kontakt
+          </a> 
+        </li> 
+      </ul>
+    </nav>
+    <a href="Prim3blog.html">
+      <h3> zurück zur Startseite 
+      </h3>
+    </a>
+    <form>  
+      <fieldset>
+        <legend>
+          <h2>  Kontaktformular 
+          </h2>
+        </legend>
+        Vorname:
+        <br>
+        <input type="text" name="firstname" value="z.B. Mickey">
+        <br>
+        Nachname:
+        <br>
+        <input type="text" name="lastname" value="z.B. Mouse">
+        <br>
+        <br>
+        <textarea name="message" rows="10" cols="30">Schriebe mir eine Nachricht hier!
+        </textarea>
+        <br>
+        <button type="button" onclick="alert('Nachricht gesendet!')">Nachricht senden
+        </button>
+      </fieldset>
+    </form> 
+    <form>
+      <fieldset>
+        <legend>
+          <h2>  kleine Umfrage 
+          </h2>
+        </legend>
+        <p>Wie alt bist du?
+        </p>
+        <input type="radio" name="gender" value="male" checked> 12 Jahre alt oder jünger
+        <br>
+        <input type="radio" name="gender" value="female"> 13 bis 25 Jahre alt
+        <br>
+        <input type="radio" name="gender" value="other"> 26 Jahre alt oder älter 
+        <br>
+        <br>  
+        <p>Worauf spielst du Videospiele?
+        </p>
+        <select name="cars">
+          <option value="volvo">Xbox
+          </option>
+          <option value="saab">Playstation
+          </option>
+          <option value="fiat">PC
+          </option>
+          <option value="audi">andere Platform
+          </option>
+        </select>
+        <br>
+        <br>
+        <p>Welches Spielegenre gefällt die am besten?
+        </p>
+        <input list="Spielegenre" name="Spielegenre">
+        <datalist id="Spielegenre">
+          <option value="Egoshooter">
+          <option value="Abendteuerspiel">
+          <option value="Strategiespiel">
+          <option value="Gelegenheitsspiel">
+          <option value="anderes Spielegenre">
+        </datalist>
+        <br>
+        <br>
+        <button type="button" onclick="alert('Umfrageantworten gesendet!')">Umfrageantworten senden
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
