@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Ruby dooby doo - Contact</title>
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="styles/style.css">
+	<meta name="description" content="Keep calm and code in Ruby"/>
+    <meta name="keywords" content="ruby,coding,code,programming, backend"/>
 </head>
 <body>
 <header id="header">
 
-	<a id="logo" href="index.html" rel="sidebar"><img src="images/Ruby dooby doo.png" alt="Ruby dooby doo"></a>
+	<a id="logo" href="index.html" rel="sidebar"><img src="images/ruby_dooby_doo.png" alt="Ruby dooby doo"></a>
 
 	<h1>Keep calm and code in Ruby</h1>
 
@@ -21,8 +23,38 @@
 		<li><a href="contact.html" title="If you need help">💎 Contact</a></li>
 	</ul>
 </nav>
-
 </header>
+<h2>Please do not hesitate to contact me if you have any further questions.</h2>
+<div class="container">
+  	<form action="/action_page.php">
+
+    	<label for="fname">First Name</label>
+    	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    	<label for="lname">Last Name</label>
+    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    	<label for="email">Email</label>
+    	<input type="text" id="email" name="email" placeholder="Your email..">
+
+    	<label for="country">Country</label>
+    	<select id="country" name="country">
+      	<option value="australia">Australia</option>
+      	<option value="canada">Canada</option>
+      	<option value="usa">USA</option>
+      	<option value="usa">Russia</option>
+      	<option value="usa">Germany</option>
+    </select>
+	<br>
+    <label for="question">Subject</label>
+    <textarea id="subject" name="question" placeholder="Write syour question.."></textarea>
+	<br>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
 
 <footer>
 	<p class="copy">© 2017 Egor Yushchenko. All rights reserved.</p>
