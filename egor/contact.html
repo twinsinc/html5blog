@@ -2,70 +2,89 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Ruby dooby doo - Contact</title>
-	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<title>Dead Cells - Blog</title>
+	<link rel="shortcut icon" href="images/navcolor.png" type="image/x-icon">
 	<link rel="stylesheet" href="styles/style.css">
-	<meta name="description" content="Keep calm and code in Ruby"/>
-    <meta name="keywords" content="ruby,coding,code,programming, backend"/>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
 </head>
 <body>
-<header id="header">
+<header>
 
-	<a id="logo" href="index.html" rel="sidebar"><img src="images/ruby_dooby_doo.png" alt="Ruby dooby doo"></a>
+	
 
-	<h1>Keep calm and code in Ruby</h1>
 
-<nav id="nav">
+<nav>
 	<ul>
-		<li><a href="index.html" title="The main blog page">💎 Blog</a></li>
-		<li><a href="about.html" title="About the blog">💎 About</a></li>
-		<li><a href="links.html" title="Useful links and books">💎 Links</a></li>
-		<li><a href="contact.html" title="If you need help">💎 Contact</a></li>
+		<li><a href="index.html" title="The main blog page"><img src="images/navblack.png"> Blog</a></li>
+		<li><a href="about.html" title="About the blog"><img src="images/navblack.png"> About</a></li>
+		<li><a href="links.html" title="Useful links and books"><img src="images/navblack.png"> Links</a></li>
+		<li><a href="contact.html" title="If you need help"><img src="images/navcolor.png"> Contact</a></li>
 	</ul>
 </nav>
 </header>
-<h2>Please do not hesitate to contact me if you have any further questions.</h2>
-<div class="container">
-  	<form id="form" action="#">
-  		<fieldset>
+<section>
+	<h1>Please do not hesitate to contact me if you have any further questions.</h1>
+
+  	<form action="#">
+  	<fieldset>
 		<legend>Contact</legend>
     	<label for="fname">First Name</label>
-    	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+    	<input type="text" id="fname" placeholder="Your name..">
 
     	<label for="lname">Last Name</label>
-    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    	<input type="text" id="lname" placeholder="Your last name..">
 
     	<label for="email">Email</label>
-    	<input type="text" id="email" name="email" placeholder="Your email..">
+    	<input type="text" id="email" placeholder="Your email..">
 
     	<label for="country">Country</label>
-    	<select id="country" name="country">
+    <select id="country">
       	<option value="australia">Australia</option>
       	<option value="canada">Canada</option>
       	<option value="usa">USA</option>
       	<option value="usa">Russia</option>
       	<option value="usa">Germany</option>
     </select>
-	<br>
+	
     <label for="question">Subject</label>
-    <textarea id="question" name="question" placeholder="Write syour question.."></textarea>
-	<br>
+    <textarea id="question" placeholder="Write your question.."></textarea>
+	
+	<p>Do you like my blog?</p>
+	 <input type="radio" id="yes" name="answer" value="Yes">
+    <label for="yes">Yes</label> 
+    <input type="radio" id="no" name="answer" value="No">
+    <label for="no">No</label>
+	
+
     <input type="submit" value="Submit">
 	<button form="form" type="reset">Reset</button>
 	</fieldset>
   </form>
-</div>
+
+  <form>
+  	<fieldset>
+  		<legend>Log in to write comments</legend>
+  	<label for="login-on">Login:</label>
+  	<input type="text" name="login" id="login on" placeholder="login">
+  	<label for="password-on">Password:</label>
+  	<input type="password" name="password" id="password-on" placeholder="12345">
+  	<input type="submit" value="Log in">
+	</fieldset>
+  </form>
+</section>
+
 
 
 
 <footer>
-	<p class="copy">&copy; 2017 Egor Yushchenko. All rights reserved.</p>
+	<p>&copy; 2017 Egor Yushchenko. All rights reserved.</p>
 
-	<ul class="social">
-			<li class="facebook"><a href="" target="_blank">Facebook</a></li>
-			<li class="twitter"><a href="" target="_blank">Twitter</a></li>
-			<li class="instagram"><a href="" target="_blank">Instagram</a></li>
-			<li class="tumblr"><a href="">Tumblr</a></li>
+	<ul>
+			<li><a href="" target="_blank"><img src="images/facebook.png" alt="Facebook"></a></li>
+			<li><a href="" target="_blank"><img src="images/twitter.png" alt="Twitter"></a></li>
+			<li><a href="" target="_blank"><img src="images/instagram.png" alt="Imstagram"></a></li>
 		</ul>
 
 </footer>

@@ -1,0 +1,196 @@
+/*Machen Sie sich Gedanken zu den Themen reset und normalize.
+Schreiben Sie Ihre Erkenntnisse als Kommentar in die CSS-Datei.  (3 Punkte)
+
+Ich habe den folgenden Artikel gelesen und habe mich für normalize.css entschieden.
+Da ich noch nicht viele Erfarungen mit CSS habe, kann ich nich meine eigene foundation machen.
+Und mit normalize.css sieht mein Blog gut aus, entweder ohne oder mit normalize.css gibt 
+keinen großen Unterschied, und das gefällt mir. */
+
+/*Desktop-first oder mobile-first oder Auslieferung vollkommen getrennter Dateien (2 Punkte)
+Desktop-first. Mein Blog ist über ein Computerspiel und ist für Desktops gedacht. Für Mobil 
+Geräte wäre es auch zu viel Mediacontent.
+*/
+
+body {
+	overflow-x: hidden;
+	background: url();
+
+}
+
+section {
+	width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: brown;
+}
+
+article{
+	margin: auto;
+	display: block;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px rgba(255, 0, 0, 0.75);
+    padding: 3%;
+    margin-bottom: 5%;
+    border: 5px solid red;
+    background: white;
+}
+
+header {
+	padding-top: 2%;
+	width: 100%;
+    height: 100%;
+    margin: auto;
+	
+}
+
+/*img#logo {
+	width: 30%;
+	height: 30%;
+	background: white;
+	margin: auto; 
+	display: block;
+	padding: 2%;
+
+}
+*/
+
+nav{
+	position: relative;
+	background: brown;
+	text-align: center;
+	padding: 2%;
+}
+
+nav:before, nav:after {
+  
+  position: absolute;
+  background: brown;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+}
+
+nav:before {
+	content: url(https://d1u5p3l4wpay3k.cloudfront.net/deadcells_gamepedia_en/3/37/Pirate_Captain.png);
+  right: 70%;
+}
+
+nav:after {
+	content: url(https://ru.inettools.net/upload/xZh0EeWYjhIb8h7W5Bb6gfRinKCNb8TSpkCdap2S/pirate_captain.inettools.net.rotate.image.png);
+  left: 70%;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+
+nav>ul{
+}
+
+nav>ul>li {
+	display: inline;
+	border: 2px solid black;
+	padding-right: 2%;
+	padding-left: 1%;
+	padding-top: 0.45%;
+	padding-bottom: 1%;
+}
+
+nav>ul>li>a {
+	color: black;
+	text-decoration: none;
+}
+
+article>ul>figure>img {
+	/*width: 650px;
+	height: 347px;*/
+	width: 100%;
+	height: 100%;
+	margin: 20px;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.75);
+}
+
+article>figure>img{
+	width: 650px;
+	height: 347px;
+	margin: 20px;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.75);
+}
+
+figcaption {
+    margin: 0 auto 5px;
+}
+
+.postedby {
+	background-color: brown;
+	box-sizing: border-box;
+	padding: 10px;
+
+}
+
+h3 {
+  position: relative;
+  background: brown;
+  padding: 2%;
+}
+
+h3:before, h3:after {
+  content: url();
+  position: absolute;
+  background: brown;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+}
+
+h3:before {
+	right: 100%;
+}
+
+h3:after {	
+	left: 100%;
+}
+
+/*.left:after {
+	display: none;
+}
+
+.right:before{
+	display: none;
+}*/
+
+
+footer>ul>li{
+	display: inline;
+}
+
+footer>ul>li>a{
+	text-decoration: none;
+}
+
+form {
+	margin: auto;
+	padding: 3%;
+}
+
+form>fieldset>label, textarea{
+	padding: 1%;
+	display: block;
+	margin-top: 2%;
+}
+
+label+input {
+	margin-bottom: 2%;
+	display: block;
+
+#yes, #no {
+
+}
