@@ -1,0 +1,127 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+main,
+li {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+}
+strong {
+    font-weight: bold;
+}
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+}
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+<style>
+body {
+    background-color: linen;
+    margin: 0;
+    background-image: url("???");
+    background-repeat: repeat-x;
+}
+h1 {
+    color: blue;
+    margin-left: 40px;
+} 
+h2{
+    color: red;
+    margin-left: 40px;
+}  
+h3{
+    color: green;
+    margin-left: 40px;
+}
+h4{
+    color: orange;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    text-decoration: underline;
+}
+
+.active {
+    background-color: green;
+}
+</style>
