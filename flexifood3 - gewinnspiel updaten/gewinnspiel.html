@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="description" content="flexitarische Küche">
+            <meta name="keywords" content="flexitarier, flexi, food">
+            <meta name="author" content="Ferdinand Faller, Robert Samis, Egor Yushchenko">
+            <meta name=”viewport” content="width=device-width">
+            <link rel="stylesheet" media='screen and (min-width: 700px)' href="styles/style.css">
+            <link rel='stylesheet' media='screen and (max-width: 700px)' href="styles/700.css" />
+            <link href="https://fonts.googleapis.com/css?family=Bad+Script|Grand+Hotel|Pacifico" rel="stylesheet">
+            <title>Gewinnspiel</title>
+    </head>
+    <body>
+            <header>
+                <a href="Index.html"><img src="images/logo.png" alt="flexifood logo"></a>
+            </header>
+            <nav>
+                <div class="nav-wrapper">
+                <div class="dropdown">
+                    <div class="dropdown-button">   
+                    <div class="drop-line"></div>
+                    <div class="drop-line"></div>
+                    <div class="drop-line"></div>
+                    </div>
+                <ul>
+                    <div class="dropdown-content">
+                    <li><a href="serviervorschläge.html">Serviervorschläge</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="gewinnspiel.html">Gewinnspiel</a></li>
+                    </div>
+                </ul>
+                </div>
+                </div>
+            </nav>
+            <main>
+                <div class="main-content">
+                <article>
+                    <h1>Gewinnspiel</h1>
+                    <div class="linie"></div>
+                    <p>Habt ihr Lust was zu Gewinnen? Dann seid ihr hier genau richtig.</p>
+                    <p>Und falls ihr nicht genug vom flexitarischen Essen kriegst, dann kannst du einfach meinen wöchentlichen Newsletter komplett Umsonst erhalten. Ja richtig gelesen, komplett umsonst!</p>
+                </article> 
+                <section>
+                    <form action="#/" name="newsletter">
+                        <fieldset>
+                            <legend>Daten:</legend>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name">
+                            <label for="email">eMail:</label>
+                            <input type="text" id="email">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Wie findest du die Seite?</legend>
+                            <label for="wieGut" id="gut">Gut</label>
+                            <input type="range" id="wieGut" value="wieGut">
+                            <label for="wieGut" id="super">Super</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Newsletter erhalten?</legend>
+                            <input type="radio" id="newsletterJa" name="newsletter" value="yes">
+                            <label for="newsletterJa">Ja bitte!</label>
+                            <input type="radio" id="newsletterNein" name="newsletter" value="no" checked>
+                            <label for="newsletterNein">Nein danke!</label>
+                            <button type="submit">Spielen!</button>
+                        </fieldset>
+                    </form>
+                </section>
+                </div>
+                <div class="bottom-spacer"></div>
+            </main>
+            <footer>
+               &copy; <small>2017 by Ferdinand Faller, Robert Samis, Egor Yushchenko</small>
+            </footer>
+    </body>
+</html>

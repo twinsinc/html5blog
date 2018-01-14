@@ -1,0 +1,273 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-image: url(../images/paper3.gif);
+
+}
+body {
+    min-height: 150%;
+    width: 100%;
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+}
+strong {
+    font-weight: bold;
+}
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+}
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+ header {
+    display: none;
+}
+nav, footer {
+    background-image: url(../images/wood.jpg);
+}
+nav {
+    
+    border-bottom: 1.5px solid black;
+    display: block;
+    width: 100%;
+    height: 10vw;
+    min-height: 2.5rem;
+    max-height: 3rem;
+    margin: 0;
+
+}
+.dropdown {
+    height: 40px;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-button {
+    float: left;
+    cursor: pointer;
+    height: 10vw;
+    min-height: 2.5rem;
+    max-height: 3rem;
+    width: 10vw;
+    color: white;
+    overflow: visible;
+    padding: 1vw;
+}
+.dropdown-content {
+    float:left;
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    z-index: 1;
+    background-image: url(../images/wood.jpg);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 1rem;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover {
+    background-color: rgba(220,80,80,1);
+}
+.drop-line {
+  border-radius: 5px;;
+  width: 8vw;
+  min-width: 20px;
+  max-width: 2rem;
+  height: 4px; 
+  margin: 4px;
+  background-color: white;
+}
+.nav-wrapper {
+}
+.main-content {
+    margin: 0;
+    padding-top: 0;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    color: rgb(220, 220, 220);
+    text-decoration: none;
+    font-family: 'Bad Script', bold;
+    font-size: 6vw;
+}
+.dropdown-content a:hover {
+    color: white;
+}
+.active a {
+    color: white;
+}
+
+h1 {
+    font-size: 10vw;
+    padding-top: 1rem;
+}
+.main-content, .rezept {
+    width: 100%;
+    text-align: center;
+    min-width: 1px;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 10vw;
+}
+.main-content h2, .rezept h2 {
+    font-family: 'Pacifico';
+    text-align: center;
+    font-size: 9vw;
+    padding: 0.5rem;
+    }
+
+.rezept h3{
+    font-family: 'Pacifico';
+    font-size: 8vw;
+    margin: 2vw;
+}
+
+.rezept img {
+    border: 1.5px solid black;
+    width: 95%;
+    margin-top: 1vw;
+}
+
+.main-content p, .rezept article li{
+    text-align: center;
+    font-family: 'Bad Script';
+    font-size: 6.5vw;
+    line-height: 1.5;
+    }
+
+.thumbnail img {
+    background: 50% 50%;
+}
+
+.thumbnail {
+    overflow: hidden;
+    display: block;
+    width: 95%;
+    height: 40vw;
+    margin: auto;
+    border: 1.5px solid black;
+}
+
+.page-wrapper {
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    border: 1px rgb(32 , 32, 32) solid;
+    border-bottom: 0px;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-size: 22rem;
+}
+footer small {
+    font-family: 'Bad Script';
+    font-size: 1rem;
+}
+.linie {
+    height: 3px;
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+    background: black;
+}
+.zum-rezept, .back {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 25vw;
+    text-align: center;
+    padding: 0.4rem;
+    border: 1.5px rgb(180 , 180, 180) solid;
+    border-radius: 0.2rem;
+    font-size: 5vw;
+    font-family: 'Pacifico';
+    background: rgb(240,240,240)
+    
+}
+#gewinnspiel {
+    background-image: url(../images/sakura.png);
+    background-size: 20rem;
+    border-bottom: 2px solid black;
+}
+form {
+}
+fieldset {
+    border: none;
+}
+form label {
+    font-family: 'Bad Script';
+    font-size: 6vw;
+}
+form legend {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 9vw;
+}
+fieldset button {
+    display: block;
+    border: 1.5px solid black;
+    border-radius: 1rem;;
+    font-family: 'Pacifico';
+    font-size: 9vw;
+    margin: auto;
+    margin-top: 1rem;
+}
+#name, #email {
+    display: block;
+    margin: auto;
+}

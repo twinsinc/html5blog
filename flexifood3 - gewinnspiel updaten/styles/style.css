@@ -1,0 +1,410 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-image: linear-gradient(90deg, rgba(200,0,0,.3) 50%, transparent 50%),
+        linear-gradient(rgba(200,0,0,.3) 50%, transparent 50%);
+    background-size: 40px 40px;
+    min-height: 100%;
+}
+body {
+    min-height: 150%;
+    width: 100%;
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+}
+strong {
+    font-weight: bold;
+}
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+}
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+header {
+border-bottom: 1.2px rgb(32 , 32, 32) solid;
+}
+
+#page-wrapper {
+    width: 100%;
+}
+
+header, 
+footer{
+    background-image: url(../images/wood.jpg);
+    background-size: 22rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+/*  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+        linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+    background-size:40px 40px; */
+
+header img {
+    border-radius: 50%;
+    border: 2px rgb(32 , 32, 32) solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 8rem;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+header img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(220,80,80,1);
+    border-bottom: 1.2px rgb(32 , 32, 32) solid;
+    
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    padding: 0.5rem;
+}
+nav a {
+    padding: 0.5rem;
+    color: rgb(220, 220, 220);
+    text-decoration: none;
+    font-family: 'Bad Script', bold;
+    font-size: 1.2rem;
+}
+.active a {
+    padding: 0.5rem;
+    color: white;
+}
+li:hover a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+nav {
+    display: block;
+    height: 2rem;
+    margin: auto;
+}
+.nav-wrapper {
+    width: 100%;
+    text-align: center;
+}
+nav ul {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+main{
+    font-family: Amatic SC Font Family;
+    padding-top: 0.5rem;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+.main-content {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/paper3.gif);
+    padding-top: 1rem;
+    width: 80%;
+    max-width: 60rem;
+    min-width: 35rem;
+    margin: auto;
+    border: 0.8px solid black;
+    background-size: 40rem;
+    background-position: center;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-family: 'Pacifico';
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    
+}
+.main-content h3{
+    font-family: 'Pacifico';
+    font-size: 1.8rem;
+    padding-bottom: 0.4rem;
+}
+
+.main-content p{
+    font-family: 'Bad Script';
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.linie {
+    height: 3px;
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+    /* noch in rgb machen + media qurie bei widescreen dicker machen*/
+    background: black;
+}
+
+section {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.zum-rezept, .back {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 6rem;
+    text-align: center;
+    padding: 0.4rem;
+    border: 1.5px rgb(180 , 180, 180) solid;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    font-family: 'Pacifico';
+    background: rgb(240,240,240)
+    
+}
+.thumbnail {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border: 1px solid black;
+}
+
+.rezept h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.5rem;
+    
+}
+.rezept h3{
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Pacifico';
+    font-size: 1.8rem;
+    padding-bottom: 0.4rem;
+}
+
+.rezept article li{
+    font-family: 'Bad Script';
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.rezept{
+    background-image: url(../images/paper3.gif);
+    padding-top: 1rem;
+    width: 80%;
+    max-width: 60rem;
+    min-width: 35rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    border: 0.8px solid black;
+    background-size: 40rem;
+    background-position: center;
+    border-radius: 0.2rem;
+}
+
+.rezept-top ul, .rezept-top h2 {
+    text-align: left;
+}
+.anweisungen-wrapper {
+    width: 80%;
+    margin: auto;
+}
+.anweisungen {
+    padding: 0.5rem;
+}
+.rezept-top {
+    margin: auto;
+    padding: 0.5rem;
+    overflow: hidden;
+    width: 45rem;
+}
+.zutaten {
+    text-align: left;
+    float: left;
+    display: inline-block;
+    padding-left: 1rem;
+}
+.rezept-top-wrapper {
+    overflow: hidden;
+    width: 90%;
+    margin-left: 10%;
+    display: block;
+}
+.rezept img{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    overflow: hidden;
+    float:left;
+    margin-left: 4rem;
+    width: 20rem;
+    height: 100%;
+    transform: rotate(-1.5deg);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    border: 1px rgb(32 , 32, 32) solid;
+    border-bottom: 0px;
+    margin-top: 1rem;
+    position: a
+}
+footer small{
+     font-family: 'Bad Script';
+    font-size: 1.2rem;
+}
+
+#gewinnspiel {
+    background-image: url(../images/sakura.png);
+    background-size: 20rem;
+}
+form {
+}
+fieldset {
+    border: none;
+}
+form label {
+    font-family: 'Bad Script';
+    font-size: 1.2rem;
+}
+form legend {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2rem;
+}
+fieldset button {
+    display: block;
+    border: 1.5px solid black;
+    border-radius: 1rem;;
+    font-family: 'Pacifico';
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.about-wrapper {
+    margin: auto;
+    padding: 0.5rem;
+    overflow: hidden;
+    width: 80%;
+}
+.about-wrapper img {
+    border: black dotted 2px;
+    margin: 1rem auto;
+    display: inline-block;
+    width: 10rem;
+    margin
+}
+#ferdi img {
+    transform: rotate(4deg);
+}
+#egor img {
+    transform: rotate(2deg);
+}
+#robert img {
+    transform: rotate(-3deg);
+}
+.about-text {
+    text-align: justify;
+    display: inline-block;
+    padding-left: 1rem;
+} 
+@media (max-width: 900px) {
+    .rezept-top-wrapper {
+        width: 75%;
+        margin-left: 25%;
+    }
+    .zutaten {
+        clear: both;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 5%;
+    }
+    .rezept img{
+    margin-left: 0;
+    display: block;
+    }
+    section {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-left:0;
+    padding-right:0;
+}
